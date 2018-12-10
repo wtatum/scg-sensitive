@@ -1,0 +1,8 @@
+# IDEA settings
+.idea
+*.iml
+target/
+!.mvn/wrapper/maven-wrapper.jar
+*.iws
+*.ipr
+*.log
