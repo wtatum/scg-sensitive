@@ -1,0 +1,5 @@
+spring.cloud.gateway.routes:
+  - id: bin
+    uri: http://httpbin.org
+    predicates: Path=/bin/**
+    filters: StripPrefix=1
